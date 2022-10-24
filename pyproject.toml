@@ -16,6 +16,3 @@ Homepage = "https://github.com/Accoustium/tictactoe_python"
 line-length = 88
 target-version = ['py37', 'py38']
 include = '\.pyi?$'
-
-[tool.flake8]
-ignore = ['E501']
