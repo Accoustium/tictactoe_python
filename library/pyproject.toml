@@ -16,11 +16,6 @@ Homepage = "https://github.com/Accoustium/tictactoe_python"
 line-length = 88
 target-version = ['py37', 'py38']
 include = '\.pyi?$'
-extend-exclude = '''
-/(
-  # The following are specific to Black, you probably don't want those.
-  | blib2to3
-  | tests/data
-  | profiling
-)/
-'''
+
+[tool.flake8]
+ignore = ['E501']
